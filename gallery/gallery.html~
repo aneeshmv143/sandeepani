@@ -1,0 +1,301 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>Sandeepani Seva Samithi: Gallery</title>
+	<link rel="stylesheet" href="css/image-gallery-2011.css" />
+	<script type="text/javascript" src="js/external/mootools-core-1.3-full-compat.js"></script>
+	<script type="text/javascript" src="js/external/mootools-more-1.3.1.1.js"></script>
+	<script type="text/javascript" src="js/image-gallery-2011.js"></script>
+	<style type="text/css">
+	body{
+		font-family: Trebuchet MS, Arial;
+		width:100%;
+		background-color:#FFF;
+	}
+	.imgCopyright{
+		font-size:0.7em;
+		font-style:italic;
+	}
+	.imgCopyright a{
+		color:#F00;
+	}
+
+	/* Override default styles */
+	.dg-image-gallery{
+		border:3px solid #AAA;
+	}
+	.dg-image-gallery-previous{
+		background-image:url('images/left-white.png');
+		left : 0px;
+	}
+	.dg-image-gallery-previous-over{
+		background-image:url('images/left-white-over.png');
+	}
+	.dg-image-gallery-next{
+		background-image:url('images/right-white.png');
+		right : 0px;
+	}
+	.dg-image-gallery-next-over{
+		background-image:url('/images/right-white-over.png');
+	}
+	.dg-image-gallery-next-autoplay-start{
+
+		background-image:url('images/play-white.png');
+	}
+	.dg-image-gallery-next-autoplay-stop{
+
+		background-image:url('images/pause-white.png');
+	}
+	.dg-image-gallery-next-autoplay-start-off{
+		background-image:url('images/play-white-off.png');
+	}
+	.dg-image-gallery-next-autoplay-stop-off{
+		background-image:url('images/pause-white-off.png');
+
+	}
+	.dg-image-gallery-caption {
+		color:#000;
+	}
+	.dg-image-gallery-thumbnail-highlight{
+		border:3px solid #AAA;
+	}
+	</style>
+</head>
+<body>
+
+<div id="dg-image-gallery" class="dg-image-gallery">
+
+	<center><h4>Sandeepani Seva Samithi various activities</h4></center>
+
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/1.JPG"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/1.JPG</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/2.JPG"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/2.JPG</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/3.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/3.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/4.JPG"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/4.JPG</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/5.JPG"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/5.JPG</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/6.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/6.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/7.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/7.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/8.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/8.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/9.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/9.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/10.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/10.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/11.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/11.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/12.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/12.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/13.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/13.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/14.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/14.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/15.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/15.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/16.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/16.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/17.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/17.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/18.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/18.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/19.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/19.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/20.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/20.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/21.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/21.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/22.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/22.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/23.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/23.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/24.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/24.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/25.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/25.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/26.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/26.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/27.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/27.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/28.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/28.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/29.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/29.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/30.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/30.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/31.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/31.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/32.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/32.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/33.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/33.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/34.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/34.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/35.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/35.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/36.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/36.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/37.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/37.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/38.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/38.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/39.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/39.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/40.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/40.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/41.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/41.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/42.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/42.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/43.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/43.jpg</span>
+	</div>
+	<div class="dg-image-gallery-image">
+		<img class="dg-image-gallery-thumb" src="demo-images/thumbnail/44.jpg"/>
+		<span class="dg-image-gallery-caption">Sandeepani Seva Samithi award ceremony</span>
+		<span class="dg-image-gallery-large-image-path">demo-images/44.jpg</span>
+	</div>
+	
+</div>
+<script type="text/javascript">
+var gallery = new DG.ImageGallery({
+	el : 'dg-image-gallery',
+	autoplay : {
+		pause : 3
+	}
+});
+</script>
+</body>
+</html>
